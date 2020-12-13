@@ -1,0 +1,52 @@
+body{
+    background-color: turquoise;
+}
+
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+img:hover{
+    opacity: 0.3;
+}
+
+* {
+    border: solid;
+}
+
+.item img{
+    border:solid;
+    border-color:firebrick;
+    border-radius:50px ;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    bottom: 50%;
+    left: 1px;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+p,h2{
+    text-align: center;
+}
